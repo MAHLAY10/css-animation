@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    box-sizing: 0;
+}
+
+html,
+body{
+    height: 100%;
+    background-color: black;
+}
+
+.animate{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    animation-name: stretch;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.one{
+    text-align: center;
+    font-weight: 500;
+}
+
+@keyframes stretch {
+    0%{font-size: 100px; color: white; }
+    25%{font-size: 120px; color: green;}
+    50%{font-size: 80px; color: blue;}
+    100%{font-size: 100px; color: red;}
+}
+
+.animate2{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: hang;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hang {
+    0%{font-size: 100px; color: white;}
+    50%{font-size: 100px; color: red;}
+    100%{font-size: 100px; transform: rotate(220deg); color: black;}
+}
+
+.animate3{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: hang2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hang2 {
+    0%{font-size: 100px; color: white;}
+    50%{font-size: 100px; color: gold;}
+    100%{font-size: 100px; transform: rotate(45deg); color: black;}
+}
+
+.animate4{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: hang3;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hang3 {
+    0%{font-size: 100px; color: white;}
+    50%{font-size: 100px; color: purple;}
+    100%{font-size: 100px; transform: rotate(-45deg); color: black;}
+}
+
+.animate5{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: hang4;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hang4 {
+    0%{font-size: 100px; color: white;}
+    50%{font-size: 100px; color: purple;}
+    100%{font-size: 100px; transform: rotate(-45deg); color: black;}
+}
